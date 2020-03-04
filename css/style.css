@@ -1,5 +1,5 @@
 /* REGOLE DI DEBUG */
-section {
+/* section {
   min-height: 100px;
   border: 1px solid black;
 }
@@ -13,7 +13,7 @@ footer {
 [class*="col-"] {
   min-height: 50px;
   border: 1px solid black;
-}
+} */
 
 /* REGOLE GENERALI */
 * {
@@ -23,7 +23,6 @@ footer {
 }
 
 body {
-  color: rgba(3,27,78,.75);
   padding-top: 82px;
 }
 
@@ -32,9 +31,18 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 h3 {
   font-size: 30px;
   font-weight: bold;
+}
+
+p {
+  color: rgba(3,27,78,.75);
+  font-size: 20px;
 }
 
 /* REGOLE HEADER */
@@ -105,6 +113,7 @@ h3 {
 }
 
 #jumbotron p {
+  color: #fff;
   font-size: 24px;
   opacity: 0.8;
 }
@@ -181,6 +190,48 @@ h3 {
   position: relative;
 }
 
+/* REGOLE SEZIONE DEPLOY */
+#deploy {
+  padding: 20px 0;
+}
+
+#deploy h5 {
+  font-weight: bold;
+}
+
+#deploy img {
+  width: 20%;
+  height: auto;
+}
+
+#deploy p {
+  font-size: 18px;
+}
+
+.contenitore-lista {
+  width: 100%;
+  margin: 0;
+}
+
+.contenitore-info-deploy {
+  margin: 20px 0;
+}
+
+.lista-sez-deploy {
+  list-style-type: none;
+}
+
+.lista-sez-deploy li {
+  padding: 15px;
+  padding-left: 10px;
+  border-left: 2px solid lightgrey;
+}
+
+.lista-sez-deploy a {
+  color: rgba(3,27,78,.75);
+  font-size: 20px;
+}
+
 /* MEDIA QUERY XS */
 @media all and (max-width:991px) {
   .barra-navigazione {
@@ -207,6 +258,12 @@ h3 {
     height: 100px;
     width: 100%;
     position: relative;
+  }
+
+  /* SEZIONE DEPLOY MD */
+  .contenitore-lista {
+    width: 50%;
+    margin: 20px auto;
   }
 }
 
