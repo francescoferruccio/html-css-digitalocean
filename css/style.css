@@ -1,7 +1,5 @@
 /* REGOLE DI DEBUG */
 header {
-  min-height: 100px;
-  background-color: yellow;
   border: 1px solid black;
 }
 
@@ -28,4 +26,23 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* REGOLE HEADER */
+.logo {
+  width: 170px;
+  margin: 10px;
+}
+
+/* MEDIA QUERY */
+@media all and (max-width:1199px) {
+  .barra-navigazione {
+    display: none;
+  }
+}
+
+@media all and (min-width:1200px) {
+  .hamburger {
+    display: none;
+  }
 }
