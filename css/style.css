@@ -302,6 +302,33 @@ p {
   color: #0069ff;
 }
 
+/* REGOLE SEZIONE TABLE */
+#table {
+  background: rgb(0,71,197);
+  background: linear-gradient(180deg, rgba(0,71,197,1) 0%, rgba(0,49,173,1) 50%, rgba(0,30,154,1) 100%);
+  color: #fff;
+}
+
+.my-table {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.my-table a {
+  color: #00d7d2;
+}
+
+#table tr:nth-child(1) td:nth-child(1),
+#table tr:nth-child(1) td:nth-child(2),
+#table tr:nth-child(1) td:nth-child(3) {
+  border-top: none;
+}
+
+td:nth-child(2) {
+  opacity: 0.6;
+  border-top: none;
+}
+
 /* MEDIA QUERY XS */
 @media all and (max-width:991px) {
   .barra-navigazione {
