@@ -1,0 +1,31 @@
+/* REGOLE DI DEBUG */
+header {
+  min-height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+section {
+  min-height: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+footer {
+  min-height: 100px;
+  background-color: blue;
+  border: 1px solid black;
+}
+
+[class*="col-"] {
+  min-height: 50px;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+/* REGOLE GENERALI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
