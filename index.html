@@ -12,7 +12,7 @@
 
   <body>
     <header>
-      <nav class="navbar-fixed-top">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="row">
             <div class="col-xs-6 col-lg-3">
@@ -43,7 +43,7 @@
                         <li><a href="#">Docs</a></li>
                         <li><a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
                         <li><a href="#">Login</a></li>
-                        <li><button class="btn btn-signup"><a href="#">Sign Up</a></button></li>
+                        <li><a class="btn btn-signup" href="#">Sign Up</a></li>
                       </ul>
                     </div>
                   </div>
@@ -57,14 +57,29 @@
 
     <main>
       <!-- JUMBOTRON  -->
-      <section>
+      <section id="jumbotron">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-7">
-
+              <div class="jumbo-left">
+                <h1>The simplest cloud platform for developers &#38; teams</h1>
+                <p>
+                  Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.
+                </p>
+              </div>
             </div>
             <div class="col-xs-12 col-md-5">
-
+              <div class="jumbo-right">
+                <h3>Deploy your app in seconds.</h3>
+                <h3>Get started now.</h3>
+                <form>
+                  <input class="form-control" type="email" name="mail" placeholder="Email">
+                  <input class="form-control" type="password" name="password" placeholder="Password">
+                  <button class="btn-block" type="button" name="create-account">Create your account</button>
+                  <button class="btn-block" type="button" name="google-signup">Sign up with Google</button>
+                </form>
+                <span>By signing up you agree to the <a href="#">Terms of Service</a>.</span>
+              </div>
             </div>
           </div>
         </div>

@@ -25,7 +25,16 @@ footer {
 
 body {
   color: rgba(3,27,78,.75);
-  padding-top: 70px;
+  padding-top: 82px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /* REGOLE HEADER */
@@ -62,7 +71,7 @@ body {
   margin: 15px 0;
 }
 
-.btn-signup {
+.barra-navigazione .btn-signup {
   border: 1px solid #0069ff;
   background-color: #fff;
   color: #0069ff;
@@ -85,6 +94,33 @@ body {
 
 .burger .btn:hover {
   color: #0069ff;
+}
+
+/* REGOLE JUMBOTRON */
+#jumbotron {
+  background-image: url("../img/bg-jumbo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 50px;
+}
+
+#jumbotron p {
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.jumbo-left {
+  min-height: 400px;
+}
+
+.jumbo-right {
+  min-height: 400px;
+  text-align: center;
+  background-color: #fff;
+  color: rgba(3,27,78,.75);
+  border-radius: 5px;
+  padding: 30px 20px;
 }
 
 /* MEDIA QUERY */
