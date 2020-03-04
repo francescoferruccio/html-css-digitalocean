@@ -30,6 +30,7 @@ body {
 
 h1 {
   font-size: 64px;
+  font-weight: bold;
 }
 
 h3 {
@@ -73,7 +74,6 @@ h3 {
 
 .barra-navigazione .btn-signup {
   border: 1px solid #0069ff;
-  background-color: #fff;
   color: #0069ff;
 }
 
@@ -115,7 +115,6 @@ h3 {
 }
 
 .jumbo-right {
-  min-height: 400px;
   text-align: center;
   background-color: #fff;
   color: rgba(3,27,78,.75);
@@ -123,15 +122,68 @@ h3 {
   padding: 30px 20px;
 }
 
-/* MEDIA QUERY */
-@media all and (max-width:1199px) {
+.titolo-form {
+  color: #000;
+}
+
+.sottotitolo-form {
+  color: #0069ff;
+}
+
+input {
+  margin: 5px 0;
+}
+
+.btn-form {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn-crea-account {
+  color: #fff;
+  background-color: #0069ff;
+}
+
+.btn-google {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px grey;
+  margin-bottom: 20px;
+}
+
+.terms {
+  text-decoration: underline;
+}
+
+/* MEDIA QUERY XS */
+@media all and (max-width:991px) {
   .barra-navigazione {
     display: none;
   }
 }
 
+/* MEDIA QUERY MD */
+@media all and (min-width:992px) {
+  .barra-navigazione {
+    display: none;
+  }
+
+  .jumbo-right {
+    min-height: 500px;
+  }
+}
+
+/* MEDIA QUERY LG */
 @media all and (min-width:1200px) {
+  .barra-navigazione {
+    display: block;
+  }
+
   .burger {
     display: none;
+  }
+
+  .jumbo-right {
+    min-height: 420px;
   }
 }
