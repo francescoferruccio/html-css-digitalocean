@@ -1,7 +1,6 @@
 /* REGOLE DI DEBUG */
 section {
   min-height: 100px;
-  background-color: red;
   border: 1px solid black;
 }
 
@@ -130,8 +129,9 @@ h3 {
   color: #0069ff;
 }
 
-input {
+#jumbotron input {
   margin: 5px 0;
+  border: none;
 }
 
 .btn-form {
@@ -155,6 +155,32 @@ input {
   text-decoration: underline;
 }
 
+/* REGOLE SEZIONE CUSTOMER */
+#customer {
+  background-color: #f3f5f9;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#customer a {
+  display: block;
+  margin: 10px 0;
+}
+
+#customer img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.frame {
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+
 /* MEDIA QUERY XS */
 @media all and (max-width:991px) {
   .barra-navigazione {
@@ -170,6 +196,17 @@ input {
 
   .jumbo-right {
     min-height: 500px;
+  }
+
+  /* SEZIONE CUSTOMER MD */
+  #customer {
+    padding: 10px 0;
+  }
+
+  .frame {
+    height: 100px;
+    width: 100%;
+    position: relative;
   }
 }
 
