@@ -329,6 +329,34 @@ td:nth-child(2) {
   border-top: none;
 }
 
+/* REGOLE SEZIONE FEEDBACK */
+#feedback {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f3f5f9;
+}
+
+#feedback p {
+  margin: 10px 0;
+}
+
+#feedback span {
+  display: block;
+}
+
+#feedback a {
+  display: block;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #0069ff;
+}
+
+.carousel-central {
+  padding: 20px 0;
+  margin: 50px 0;
+  background-color: #fff;
+}
+
 /* MEDIA QUERY XS */
 @media all and (max-width:991px) {
   .barra-navigazione {
@@ -373,6 +401,12 @@ td:nth-child(2) {
   .carousel-img {
     margin-top: 50px;
   }
+
+  /* SEZIONE FEEDBACK MD */
+  .carousel-central {
+    padding: 100px 50px;
+  }
+
 }
 
 /* MEDIA QUERY LG */
