@@ -1,8 +1,4 @@
 /* REGOLE DI DEBUG */
-header {
-  border: 1px solid black;
-}
-
 section {
   min-height: 100px;
   background-color: red;
@@ -17,7 +13,6 @@ footer {
 
 [class*="col-"] {
   min-height: 50px;
-  background-color: pink;
   border: 1px solid black;
 }
 
@@ -28,10 +23,68 @@ footer {
   box-sizing: border-box;
 }
 
+body {
+  color: rgba(3,27,78,.75);
+  padding-top: 70px;
+}
+
 /* REGOLE HEADER */
+.barra-navigazione li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.barra-navigazione a {
+  color: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.barra-navigazione a:hover {
+  text-decoration: none;
+}
+
 .logo {
   width: 170px;
-  margin: 10px;
+  margin: 20px 0;
+}
+
+.main-nav ul {
+  margin: 22px 0;
+}
+
+.login-nav {
+  text-align: right;
+}
+
+.login-nav ul {
+  margin: 15px 0;
+}
+
+.btn-signup {
+  border: 1px solid #0069ff;
+  background-color: #fff;
+  color: #0069ff;
+}
+
+.btn-signup:hover {
+  background-color: #0069ff;
+  color: #fff;
+}
+
+.burger {
+  text-align: right;
+  margin-top: 10px;
+  color: #0069ff;
+}
+
+.burger .btn {
+  background-color: #fff;
+}
+
+.burger .btn:hover {
+  color: #0069ff;
 }
 
 /* MEDIA QUERY */
@@ -42,7 +95,7 @@ footer {
 }
 
 @media all and (min-width:1200px) {
-  .hamburger {
+  .burger {
     display: none;
   }
 }

@@ -6,12 +6,13 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/09ad75d9b1.js" crossorigin="anonymous"></script>
     <title>Esercizio DigitalOcean</title>
   </head>
 
   <body>
     <header>
-      <nav >
+      <nav class="navbar-fixed-top">
         <div class="container">
           <div class="row">
             <div class="col-xs-6 col-lg-3">
@@ -19,28 +20,30 @@
 
             </div>
             <div class="col-xs-6 col-lg-9">
-              <div class="hamburger">
-                HAMBURGER
+              <!-- BOTTONE MENU HAMBURGER -->
+              <div class="burger">
+                <button class="btn"><i class="fas fa-bars fa-2x"></i></button>
               </div>
+              <!-- BARRA NAVIGAZIONE COMPLETA -->
               <div class="barra-navigazione">
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-7">
                     <div class="main-nav">
                       <ul>
-                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
                         <li><a href="#">Customers</a></li>
-                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Community <i class="fas fa-chevron-down"></i></a></li>
                         <li><a href="#">Pricing</a></li>
                       </ul>
                     </div>
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-5">
                     <div class="login-nav">
                       <ul>
                         <li><a href="#">Docs</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
                         <li><a href="#">Login</a></li>
-                        <li><a href="#">Sign Up</a></li>
+                        <li><button class="btn btn-signup"><a href="#">Sign Up</a></button></li>
                       </ul>
                     </div>
                   </div>
