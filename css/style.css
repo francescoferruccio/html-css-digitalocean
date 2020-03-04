@@ -32,11 +32,17 @@ h1 {
 }
 
 h2 {
+  font-size: 36px;
   font-weight: bold;
 }
 
 h3 {
   font-size: 30px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -195,10 +201,6 @@ p {
   padding: 20px 0;
 }
 
-#deploy h5 {
-  font-weight: bold;
-}
-
 #deploy img {
   width: 20%;
   height: auto;
@@ -279,6 +281,25 @@ p {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
+}
+
+/* REGOLE SEZIONE FEATURE */
+#feature {
+  padding: 50px 0;
+}
+
+#feature h2 {
+  margin-bottom: 20px;
+}
+
+#feature img {
+  width: 15%;
+  margin-top: 20px;
+}
+
+#feature a {
+  font-weight: bold;
+  color: #0069ff;
 }
 
 /* MEDIA QUERY XS */
