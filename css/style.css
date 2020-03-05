@@ -334,12 +334,15 @@ p {
   border-bottom: none;
 }
 
+.nav-tabs > li {
+  float: none;
+}
+
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   border: none;
 }
-
 
 /* REGOLE SEZIONE DEVELOPER */
 #developer {
