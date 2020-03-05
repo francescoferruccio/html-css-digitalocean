@@ -73,8 +73,8 @@ p {
   margin: 20px 0;
 }
 
-.main-nav ul {
-  margin: 22px 0;
+.main-nav {
+
 }
 
 .login-nav {
@@ -478,6 +478,10 @@ footer ul {
 @media all and (min-width:1200px) {
   .barra-navigazione {
     display: block;
+  }
+
+  .main-nav ul {
+    margin: 22px 0;
   }
 
   .burger {

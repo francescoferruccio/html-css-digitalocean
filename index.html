@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Bootstrap personalizzato-->
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/09ad75d9b1.js" crossorigin="anonymous"></script>
     <title>Esercizio DigitalOcean</title>
@@ -12,20 +12,95 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-default navbar-fixed-top">
+
+      <!-- NAVBAR BOOTSTRAP -->
+
+      <div class="row">
+        <div class="col-xs-12">
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+
+              <div class="row">
+                <div class="col-xs-3">
+                  <div class="navbar-header">
+                    <img class="logo" src="img/logo.svg" alt="logo">
+                  </div>
+                </div>
+
+                <div class="col-xs-9">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <button type="button" class="navbar-toggle collapsed btn burger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <i class="fas fa-bars fa-2x"></i>
+                      </button>
+                    </div>
+
+                    <div class="col-xs-12">
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse barra-navigazione" id="bs-example-navbar-collapse-1">
+                        <div class="row">
+                          <div class="col-lg-7">
+                            <div class="main-nav">
+                              <ul>
+                                <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
+                                <li><a href="#">Customers</a></li>
+                                <li><a href="#">Community <i class="fas fa-chevron-down"></i></a></li>
+                                <li><a href="#">Pricing</a></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-5">
+                            <div class="login-nav">
+                              <ul>
+                                <li><a href="#">Docs</a></li>
+                                <li><a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a class="btn btn-signup" href="#">Sign Up</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+                      </div><!-- /.navbar-collapse -->
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+              </div>
+
+
+
+
+
+
+
+            </div><!-- /.container -->
+          </nav>
+        </div>
+      </div>
+
+      <!-- NAVBAR INIZIALE -->
+
+      <!-- <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="row">
             <div class="col-xs-6 col-lg-3">
               <img class="logo" src="img/logo.svg" alt="logo">
 
             </div>
-            <div class="col-xs-6 col-lg-9">
+            <div class="col-xs-6 col-lg-9"> -->
               <!-- BOTTONE MENU HAMBURGER -->
-              <div class="burger">
+              <!-- <div class="burger">
                 <button class="btn"><i class="fas fa-bars fa-2x"></i></button>
-              </div>
+              </div> -->
               <!-- BARRA NAVIGAZIONE COMPLETA -->
-              <div class="barra-navigazione">
+              <!-- <div class="barra-navigazione">
                 <div class="row">
                   <div class="col-lg-7">
                     <div class="main-nav">
@@ -52,7 +127,7 @@
             </div>
           </div>
         </div>
-      </nav>
+      </nav>  -->
     </header>
 
     <main>
@@ -478,5 +553,11 @@
         </div>
       </div>
     </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
   </body>
 </html>
