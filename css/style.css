@@ -1,8 +1,8 @@
 /* debug */
 
-.dropdown * {
+/* .dropdown * {
   border: 1px solid black;
-}
+} */
 
 /* REGOLE GENERALI */
 * {
@@ -35,12 +35,20 @@ h5 {
   font-weight: bold;
 }
 
+h6 {
+  font-weight: bold;
+}
+
 p {
   color: rgba(3,27,78,.75);
   font-size: 20px;
 }
 
 /* REGOLE HEADER */
+.barra-navigazione {
+  z-index: 1;
+}
+
 .barra-navigazione li {
   list-style-type: none;
   display: inline-block;
@@ -100,6 +108,23 @@ p {
 
 
 /* REGOLE DROPDOWN MENU */
+.main-nav .drop-1 ul {
+  margin: 0;
+}
+
+[class*="contenuto-dropdown"] {
+  padding: 30px;
+}
+
+.contenuto-dropdown-left {
+  border-right: 1px solid hsl(218,18%,91%);
+}
+
+.contenuto-dropdown-bottom {
+  border-top: 1px solid hsl(218,18%,91%);
+  padding: 20px 0;
+}
+
 .btn-dropdown {
   background-color: #f8f8f8;
   color: inherit;
@@ -132,7 +157,17 @@ p {
 
 .main-nav .link-drop {
   margin-left: 20px;
+  padding-bottom: 10px;
   display: block;
+}
+
+.drop-1 .lightblue-link {
+  color: #0069ff;
+}
+
+.main-nav .drop-2 li {
+  display: block;
+  margin: 10px 0 10px 20px;;
 }
 
 /* REGOLE JUMBOTRON */
