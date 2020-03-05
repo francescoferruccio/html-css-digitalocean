@@ -1,20 +1,3 @@
-/* REGOLE DI DEBUG */
-/* section {
-  min-height: 100px;
-  border: 1px solid black;
-}
-
-footer {
-  min-height: 100px;
-  background-color: blue;
-  border: 1px solid black;
-}
-
-[class*="col-"] {
-  min-height: 50px;
-  border: 1px solid black;
-} */
-
 /* REGOLE GENERALI */
 * {
   margin: 0;
@@ -73,16 +56,18 @@ p {
   margin: 20px 0;
 }
 
-.main-nav {
+.main-nav li {
+  display: block;
+  margin: 10px 0;
+}
 
+.login-nav li {
+  display: block;
+  margin: 10px 0;
 }
 
 .login-nav {
   text-align: right;
-}
-
-.login-nav ul {
-  margin: 15px 0;
 }
 
 .barra-navigazione .btn-signup {
@@ -480,8 +465,24 @@ footer ul {
     display: block;
   }
 
+  .barra-navigazione li {
+    display: inline-block;
+  }
+
   .main-nav ul {
-    margin: 22px 0;
+    margin: 25px 0;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .login-nav ul {
+    margin: 15px 0;
+  }
+
+  .login-nav li {
+    margin: 0;
   }
 
   .burger {
