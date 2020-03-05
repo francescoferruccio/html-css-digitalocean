@@ -329,6 +329,18 @@ p {
   font-size: 20px;
 }
 
+/* REGOLE TAB */
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border: none;
+}
+
+
 /* REGOLE SEZIONE DEVELOPER */
 #developer {
   text-align: center;
@@ -612,6 +624,10 @@ footer ul {
   }
 
   /* HEADER LG */
+  .logo {
+    margin-top: 28px;
+  }
+
   .barra-navigazione {
     display: block;
   }
