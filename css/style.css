@@ -190,7 +190,8 @@ p {
   color: #006aff;
 }
 
-.drop-1 .lightblue-link {
+.drop-1 .lightblue-link,
+.lightblue-link {
   color: #0069ff;
 }
 
@@ -472,7 +473,6 @@ td:nth-child(2) {
   display: block;
   margin: 20px 0;
   font-weight: bold;
-  color: #0069ff;
 }
 
 .carousel-central {

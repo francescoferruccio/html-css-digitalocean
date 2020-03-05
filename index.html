@@ -496,48 +496,11 @@
                         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                       </ol>
                     </div>
-
                   </div>
                 </div>
-
-
               </div>
-
             </div>
           </div>
-
-
-
-
-          <!-- STRUTTURA CAROUSEL DA VERIFICARE -->
-          <!-- <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
-              <div class="carousel">
-                <div class="row">
-                  <div class="col-xs-1">
-                    <div class="side-carousel">
-                      <i class="fas fa-chevron-left frecce-carousel"></i>
-                    </div>
-                  </div>
-                  <div class="col-xs-10">
-                    <img class="carousel-img" src="img/carousel-1.jpg" alt="carousel-img">
-                  </div>
-                  <div class="col-xs-1">
-                    <div class="side-carousel">
-                      <i class="fas fa-chevron-right frecce-carousel"></i>
-                    </div>
-                  </div>
-                  <div class="col-xs-12">
-                    <span class="text-carousel">Create compute servers in 55 seconds or less.</span>
-                    <i class="far fa-circle btn-carousel"></i>
-                    <i class="far fa-circle btn-carousel"></i>
-                    <i class="far fa-circle btn-carousel"></i>
-                    <i class="far fa-circle btn-carousel"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </section>
       <!-- SEZIONE FEATURE -->
@@ -667,33 +630,69 @@
           <!-- STRUTTURA CAROUSEL DA VERIFICARE -->
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
-              <div class="carousel">
+              <div id="carousel-feedback" class="carousel slide" data-ride="carousel">
                 <div class="row">
                   <div class="col-xs-1">
                     <div class="side-carousel">
-                      <i class="fas fa-chevron-left frecce-carousel"></i>
+                      <a class="left carousel-control" href="#carousel-feedback" role="button" data-slide="prev">
+                          <i class="fas fa-chevron-left frecce-carousel"></i>
+                      </a>
                     </div>
                   </div>
                   <div class="col-xs-10">
-                    <div class="carousel-central">
-                      <img src="img/rockerbox.png" alt="rockerbox-logo">
-                      <p>
-                        "We have been able to make scaling the technical infrastructure of our business cost effective and efficient."
-                      </p>
-                      <span class><strong>Rick O'Toole</strong></span>
-                      <span>Co-founder and CTO</span>
-                      <a href="#">Read story ></a>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="carousel-central">
+                          <img src="img/rockerbox.png" alt="rockerbox-logo">
+                          <p>
+                            "We have been able to make scaling the technical infrastructure of our business cost effective and efficient."
+                          </p>
+                          <span class><strong>Rick O'Toole</strong></span>
+                          <span>Co-founder and CTO</span>
+                          <a class="lightblue-link" href="#">Read story ></a>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="carousel-central">
+                          <img src="img/rockerbox.png" alt="rockerbox-logo">
+                          <p>
+                            "Non so cosa scrivere in questo box."
+                          </p>
+                          <span class><strong>Valentino Rossi</strong></span>
+                          <span>Pensionato</span>
+                          <a class="lightblue-link" href="#">Read story ></a>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="carousel-central">
+                          <img src="img/rockerbox.png" alt="rockerbox-logo">
+                          <p>
+                            "Fate finta ci sia scritto qualcosa di intelligente"
+                          </p>
+                          <span class><strong>Tizio Dei Tizi</strong></span>
+                          <span>Co-founder and CTO</span>
+                          <a class="lightblue-link" href="#">Read story ></a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div class="col-xs-1">
                     <div class="side-carousel">
+                      <a class="right carousel-control" href="#carousel-feedback" role="button" data-slide="next">
                       <i class="fas fa-chevron-right frecce-carousel"></i>
+                      </a>
                     </div>
                   </div>
                   <div class="col-xs-12">
-                    <i class="far fa-circle btn-carousel"></i>
-                    <i class="far fa-circle btn-carousel"></i>
-                    <i class="far fa-circle btn-carousel"></i>
+                    <div class="bottom-carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li class="btn-carousel active" data-target="#carousel-feedback" data-slide-to="0"></li>
+                        <li data-target="#carousel-feedback" data-slide-to="1"></li>
+                        <li data-target="#carousel-feedback" data-slide-to="2"></li>
+                      </ol>
+                    </div>
                   </div>
                 </div>
               </div>
