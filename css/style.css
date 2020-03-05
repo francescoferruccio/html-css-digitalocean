@@ -1,3 +1,9 @@
+/* debug */
+
+.dropdown * {
+  border: 1px solid black;
+}
+
 /* REGOLE GENERALI */
 * {
   margin: 0;
@@ -6,7 +12,7 @@
 }
 
 body {
-  padding-top: 82px;
+  padding-top: 70px;
 }
 
 h1 {
@@ -51,6 +57,13 @@ p {
   text-decoration: none;
 }
 
+.btn-dropdown {
+  background-color: #f8f8f8;
+  color: inherit;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .logo {
   width: 170px;
   margin: 20px 0;
@@ -80,18 +93,16 @@ p {
   color: #fff;
 }
 
-.burger {
+#burger {
   text-align: right;
   margin-top: 10px;
   color: #0069ff;
+  background-color: #f8f8f8;
 }
 
-.burger .btn {
-  background-color: #fff;
-}
-
-.burger .btn:hover {
+#burger:hover {
   color: #0069ff;
+  background-color: #fff;
 }
 
 /* REGOLE JUMBOTRON */
@@ -461,6 +472,10 @@ footer ul {
 
 /* MEDIA QUERY LG */
 @media all and (min-width:1200px) {
+  body {
+    padding-top: 78px;
+  }
+
   .barra-navigazione {
     display: block;
   }
