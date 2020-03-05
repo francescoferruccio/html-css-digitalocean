@@ -353,6 +353,10 @@ p {
   position: relative;
 }
 
+.bottom-carousel {
+  height: 20px;
+}
+
 .frecce-carousel {
   position: absolute;
   top: 50%;
@@ -360,8 +364,34 @@ p {
   transform: translate(-50%, -50%);
 }
 
-.btn-carousel {
-  color: #0069ff;
+.carousel-control {
+  font-size: 50px;
+  color: hsl(220,95%,8%);
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  color: hsl(220,100%,8%);
+}
+
+.carousel-control.left {
+  background: none;
+}
+
+.carousel-control.right {
+  background: none;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators li {
+  border: 1px solid #0069ff;
+}
+
+.carousel-indicators .active {
+  background-color: #0069ff;
 }
 
 .btn-carousel:hover {
@@ -373,7 +403,7 @@ p {
 
 .text-carousel {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: bold;
 }
 
@@ -630,5 +660,14 @@ footer ul {
   /* JUMBOTRON LG */
   .jumbo-right {
     min-height: 420px;
+  }
+
+  /* CAROUSEL LG */
+  .carousel {
+    height: 400px;
+  }
+
+  .side-carousel {
+    height: 400px;
   }
 }
