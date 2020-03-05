@@ -324,6 +324,10 @@ p {
   border-left: 2px solid lightgrey;
 }
 
+.lista-sez-deploy li.active {
+  border-left: 2px solid black;
+}
+
 .lista-sez-deploy a {
   color: rgba(3,27,78,.75);
   font-size: 20px;
@@ -338,9 +342,19 @@ p {
   float: none;
 }
 
+.nav-tabs > li > a {
+  background-color: #fff;
+}
+
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
+  border: none;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #fff;
   border: none;
 }
 
