@@ -13,6 +13,7 @@
 
 body {
   padding-top: 70px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -46,7 +47,7 @@ p {
 
 /* REGOLE HEADER */
 #navbar-completa {
-  overflow: visible;
+  overflow-y: visible;
 }
 
 .barra-navigazione li {
